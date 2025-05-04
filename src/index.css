@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    size: 18px;
+}
+
+body {
+    
+    background-size: cover;
+    color: white; /* Default text color */
+    min-height: 100vh; /* Ensures full viewport coverage */
+}
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;    /* Centers children vertically */
+    max-width: 1200px;      /* Adjust based on your design */
+    margin: 0 auto;         /* Centers container horizontally */
+    padding: 15px 5%;       /* Maintains your existing padding */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+.btn {
+    background: white;
+    color: black;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background: #f0f0f0;
+    transform: scale(1.05);
+}
+.main-sections {
+    background: url('./assets/Group 14.png') no-repeat top center;
+    background-size: cover;
+    background-position: top ;
+    width: 100%;
+  }
+  .explore-link-container {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .explore-link {
+    background-color: #e0ff64;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .explore-link:hover {
+    background-color: #d1f452;
+  }
+  

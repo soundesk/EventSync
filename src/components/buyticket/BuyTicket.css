@@ -1,0 +1,85 @@
+.buy-ticket-page {
+  background: url('../../assets/girls.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.buy-ticket-container {
+  max-width: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.buy-ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.buy-ticket-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.buy-ticket-form button {
+  background: #e0ff64;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buy-ticket-form button:hover {
+  background: #d1f452;
+}
+
+.expiry-selects {
+  display: flex;
+  gap: 10px;
+}
+
+.expiry-selects select {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+.card-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.card-input-wrapper input {
+  width: 100%;
+  padding: 12px 12px 12px 120px; /* space for prefix */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.card-prefix {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #000000;
+  pointer-events: none;
+  font-family: inherit;
+}
+

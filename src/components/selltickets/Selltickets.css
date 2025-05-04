@@ -1,0 +1,68 @@
+.Selltickets {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* <- changed from center to flex-start */
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 60px; /* <- push text down a bit from top */
+  }
+  
+  
+  .Sell-text {
+    max-width: 800px;
+    margin-bottom: 50px; /* spacing between text and button */
+  }
+  
+  .Sell-text h1 {
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 1.4;
+  }
+  
+  .Sell-text p {
+    line-height: 45px;
+    font-size: 30px;
+  }
+  
+  .get-started-wrapper {
+    position: absolute;
+    bottom: 140px;  /* not too low */
+    right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blur-behind {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background: rgba(224, 255, 100, 0.35);
+    filter: blur(35px);
+    border-radius: 40px;
+    z-index: 0;
+  }
+  
+  .get-started-btn {
+    position: relative;
+    z-index: 1;
+    background: white;
+    color: black;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background: #f0f0f0;
+    transform: scale(1.05);
+  }
+  

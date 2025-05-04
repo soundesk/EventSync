@@ -1,0 +1,72 @@
+.auth-container {
+        max-width: 400px;
+        margin: 80px auto;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+        border-radius: 12px;
+        color: white;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      
+  }
+  .auth-page{
+    background: 
+    linear-gradient(to top, rgba(15, 15, 15, 0.9), rgba(26, 26, 26, 0.9)),
+    url(../../assets/retro-world-theatre-day-scenes-with-audience-sitting-stalls-theatre.jpg) no-repeat center center;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+      
+  }
+  .auth-container h2 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .auth-container button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e0ff64;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-container button:hover {
+    background-color: #d1f452;
+  }
+  
+  .auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .auth-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-container a:hover {
+    text-decoration: underline;
+  }
+  

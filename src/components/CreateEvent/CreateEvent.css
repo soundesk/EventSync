@@ -1,0 +1,49 @@
+.create-event-page {
+  background: url('../../assets/girls.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;           /* ✅ ensure it fills the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.create-event-container {
+  max-width: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* ✅ optional dark overlay */
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.create-event-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.create-event-form input,
+.create-event-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.create-event-form button {
+  background: #e0ff64;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create-event-form button:hover {
+  background: #d1f452;
+}

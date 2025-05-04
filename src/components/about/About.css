@@ -1,0 +1,75 @@
+.about-section {
+    background: 
+      linear-gradient(to top, rgba(15, 15, 15, 0.9), rgba(26, 26, 26, 0.9)),
+      url(../../assets/allevents.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 98vh;
+    
+  }
+  
+  .about-title {
+    font-size: 2.8rem;
+    margin-top: 40px;       /* Position from top */
+
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .about-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #ccc;
+  }
+  
+  .about-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .feature-card {
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, background 0.3s ease;
+    backdrop-filter: blur(4px); /* subtle glass effect */
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    background-color: rgba(40, 40, 40, 0.95);
+  }
+  
+  
+  .feature-icon {
+    margin-bottom: 15px;
+    color: #e0ff64;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 0.95rem;
+    color: #bbb;
+  }
+  
+  @media (max-width: 768px) {
+    .about-features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-card {
+      width: 90%;
+    }
+  }
+  

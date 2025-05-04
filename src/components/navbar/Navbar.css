@@ -1,0 +1,88 @@
+.navbar {
+  width: 100%;
+  padding: 10px 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar-scrolled {
+  background: rgba(0, 0, 0, 0.85); /* semi-transparent black */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 150px;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.btn {
+  background: white;
+  color: black;
+  padding: 8px 20px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.nav-links li {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.nav-links li::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.nav-links li:hover::after {
+  width: 100%;
+}
+
+.nav-links li:hover {
+  transform: translateY(-3px);
+}

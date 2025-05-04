@@ -1,0 +1,52 @@
+.hero {
+  width: 100%;
+  min-height: 100vh; /* Only scroll if the image is taller */
+  background-size: cover; /* OR 'cover' depending on the effect */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: relative;
+  display: block;
+}
+
+  
+  /* Wrapper for button + blur */
+  .find-event-wrapper {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Blurred background glow */
+  .blur-behind {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background: rgba(224, 255, 100, 0.35); /* E0FF64, 35% */
+    filter: blur(35px);
+    border-radius: 40px;
+    z-index: 0;
+  }
+  
+  /* Button style */
+  .find-event-btn {
+    position: relative;
+    z-index: 1;
+    background: white;
+    color: black;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .find-event-btn:hover {
+    background: #f0f0f0;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,135 @@
+.all-events-page {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  background: black;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.events-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.category-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+  background: #e0ff64;
+  color: black;
+}
+
+.events-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.event-row {
+  display: flex;
+  flex-direction: row;
+  background: #1c1c1c;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-row:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.event-row img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.event-details {
+  padding: 18px 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.event-details h3 {
+  font-size: 1.4rem; /* was 1.8rem */
+  margin-bottom: 8px;
+}
+
+.event-details p {
+  font-size: 0.95rem; /* was 1rem */
+  margin-bottom: 15px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.price {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #ffffff ;
+}
+.buy-btn {
+  background: #e0ff64;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: #d4f84a;
+}
+
+@media (max-width: 768px) {
+  .event-row {
+    flex-direction: column;
+  }
+
+  .event-row img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .event-details {
+    padding: 20px;
+  }
+}
