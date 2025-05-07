@@ -1,9 +1,37 @@
-import React from 'react';
-import './auth.css';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import './auth.css';
 
 const Login = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const navigate = useNavigate();
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('http://localhost:5000/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        // Optionally save token: localStorage.setItem('token', data.access_token);
+        navigate('/dashboard');
+      } else {
+        alert(data.error || 'Login failed');
+      }
+    } catch (err) {
+      console.error('Login error:', err);
+      alert('Could not connect to the server. Please try again later.');
+    }
+  };
+
   return (
     <div className="auth-page">
       <motion.div
@@ -21,14 +49,28 @@ const Login = () => {
         </motion.h2>
 
         <motion.form
+          onSubmit={handleLogin}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
 
           <motion.button
+            type="submit"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ duration: 0.2 }}

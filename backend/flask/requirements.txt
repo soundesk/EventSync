@@ -1,0 +1,6 @@
+flask==2.2.5
+tinydb==4.7.1
+flask-cors==3.0.10
+flask-jwt-extended==4.4.4
+werkzeug==2.2.3
+python-dotenv==1.0.0
