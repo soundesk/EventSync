@@ -1,12 +1,13 @@
+import os
+
 from flask import Flask
 from flask_cors import CORS
-from tinydb import TinyDB
 from flask_jwt_extended import JWTManager
-import os
+from tinydb import TinyDB
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)
+
 
 # JWT Configuration
 app.config['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'your-secret-key-change-in-production')
