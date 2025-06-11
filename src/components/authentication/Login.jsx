@@ -1,35 +1,36 @@
-import axios from 'axios';
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import './auth.css';
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
+
+  const { login } = useAuth();
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    setError('');
 
     try {
-      const response = await axios.post('http://http://localhost:5173C:/api.js/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        // Optionally save token: localStorage.setItem('token', data.access_token);
-        navigate('/dashboard');
+      const response = await fetch('http://localhost:5001/api/users');
+      const users = await response.json();
+      
+      const user = users.find(u => u.email === email);
+      if (user) {
+        // In a real app, you would verify the password here
+        login(user);
+        navigate('/profile');
       } else {
-        alert(data.error || 'Login failed');
+        setError('Invalid email or password');
       }
     } catch (err) {
       console.error('Login error:', err);
-      alert('Could not connect to the server. Please try again later.');
+      setError('Could not connect to the server. Please try again later.');
     }
   };
 
@@ -55,20 +56,46 @@ const Login = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <motion.div
+            className="form-group"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+          >
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </motion.div>
+
+          <motion.div
+            className="form-group"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.5, duration: 0.5 }}
+          >
+            <input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </motion.div>
+
+          {error && (
+            <motion.div
+              className="error-message"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            >
+              {error}
+            </motion.div>
+          )}
 
           <motion.button
             type="submit"

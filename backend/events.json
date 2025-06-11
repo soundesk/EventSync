@@ -1,0 +1,336 @@
+{
+  "events": [
+    {
+      "id": "6c5d4939-17f5-4f4c-8585-e2f1eb816d1a",
+      "title": "El9ante Comedy Club",
+      "description": "This month, we’ve cooked up a packed schedule for you—and trust us, no joke! 🤩. Book now!",
+      "date": "2025-06-05",
+      "time": "18:30",
+      "location": "Bir El Djir, Oran Province",
+      "category": "Comedy",
+      "price": "1500",
+      "capacity": "176",
+      "tags": [
+        "comedy"
+      ],
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F713312159%2F2044543315993%2F1%2Foriginal.20240306-204747?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C60%2C1920%2C960&s=5b4012a175cad06da46880ceff30cd0c",
+      "createdBy": "soundes@gmail.com",
+      "createdAt": "2025-05-12T23:28:23.568Z"
+    },
+    {
+      "id": "fa82c4b1-8d5a-4207-a50c-610aeb2e5ff2",
+      "title": "Groupe Djurdjura à l’Opéra d’Alger",
+      "description": "Le 16 mai 2025 à 20h00, l’Opéra d’Alger accueillera sur scène le mythique groupe Djurdjura pour une soirée musicale inoubliable. Créé dans les années 1980 par la chanteuse engagée Djouhra Abouda, Djurdjura est un groupe pionnier de la scène artistique féminine kabyle et maghrébine.",
+      "date": "2025-05-16",
+      "time": "20:00",
+      "location": "Alger",
+      "category": "Concert",
+      "price": "2000",
+      "capacity": "120",
+      "tags": [
+        "concert"
+      ],
+      "image": "https://www.dzevent.com/wp-content/uploads/jet-form-builder/c54d2118d6a3a2b06f07e9eeb240d741/2025/05/495986413_17847406500464184_2869796802162938201_n.jpeg",
+      "createdBy": "soundes@gmail.com",
+      "createdAt": "2025-05-12T23:34:30.366Z"
+    },
+    {
+      "id": "a02a377f-fbef-4ced-b047-bc4411873179",
+      "title": "Exposition-vente à Constantine – Dar Bladi",
+      "description": "À l’occasion du mois du patrimoine et en pleine saison de distillation de l’eau de rose, Dar Bladi vous accueille pour trois jours dédiés aux senteurs et aux savoir-faire traditionnels.",
+      "date": "2025-05-18",
+      "time": "08:00",
+      "location": " Constantine",
+      "category": "Exhibition",
+      "price": "500",
+      "capacity": "80",
+      "tags": [],
+      "image": "https://www.dzevent.com/wp-content/uploads/jet-form-builder/c54d2118d6a3a2b06f07e9eeb240d741/2025/04/491417012_17896359681193853_2130677232643542672_n.jpeg",
+      "createdBy": "soundes@gmail.com",
+      "createdAt": "2025-05-12T23:40:21.847Z"
+    },
+    {
+      "id": "bc43a312-489f-4320-b587-173b90c3a8e0",
+      "title": "Hackathon Oran 2025",
+      "description": "A 48-hour coding challenge for developers, designers, and entrepreneurs. Join us to innovate and build solutions for tomorrow.",
+      "date": "2025-06-22",
+      "time": "09:00",
+      "location": "Oran Tech Park",
+      "category": "Conference",
+      "price": "0",
+      "capacity": "250",
+      "tags": [
+        "tech",
+        "coding",
+        "hackathon"
+      ],
+      "image": "https://images.unsplash.com/photo-1637073849667-91120a924221?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "admin@events.com",
+      "createdAt": "2025-05-12T23:55:00.000Z"
+    },
+    {
+      "id": "d1715fcd-2b70-44fd-8a91-8d3a1c6b4d94",
+      "title": "Atelier Peinture pour Enfants",
+      "description": "Un atelier artistique destiné aux enfants de 6 à 12 ans. Peinture, créativité et plaisir garantis !",
+      "date": "2025-06-10",
+      "time": "14:00",
+      "location": "Maison de la Culture, Tizi-Ouzou",
+      "category": "Workshop",
+      "price": "300",
+      "capacity": "30",
+      "tags": [
+        "enfants",
+        "atelier",
+        "peinture"
+      ],
+      "image": "https://images.unsplash.com/photo-1744960146505-aea8ea1252fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "culture@dz.org",
+      "createdAt": "2025-05-12T23:56:30.000Z"
+    },
+    {
+      "id": "e523b1b2-df23-4e3f-a4f0-7a3f1676e124",
+      "title": "Marathon Solidaire d'Alger",
+      "description": "Participez au marathon de bienfaisance d'Alger. Tous les bénéfices seront reversés à une association locale.",
+      "date": "2025-07-01",
+      "time": "07:00",
+      "location": "Front de mer, Alger",
+      "category": "Sports",
+      "price": "1000",
+      "capacity": "1000",
+      "tags": [
+        "sport",
+        "marathon",
+        "solidarité"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Marathon_international_de_imadghassen_1069.jpg/1280px-Marathon_international_de_imadghassen_1069.jpg",
+      "createdBy": "marathon@dz.org",
+      "createdAt": "2025-05-12T23:58:12.000Z"
+    },
+    {
+      "id": "f1e3f7d9-9f59-43b1-9436-90f2b6f3e6e0",
+      "title": "Festival des Cultures du Monde",
+      "description": "Trois jours de spectacles, de danses, de musiques et de gastronomie du monde entier. Venez découvrir et célébrer la diversité culturelle.",
+      "date": "2025-08-15",
+      "time": "10:00",
+      "location": "Parc des Expositions, Alger",
+      "category": "Festival",
+      "price": "1200",
+      "capacity": "1500",
+      "tags": [
+        "culture",
+        "festival",
+        "gastronomie"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1664304095595-e428558e8161?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "festivals@dz.org",
+      "createdAt": "2025-05-13T12:10:00.000Z"
+    },
+    {
+      "id": "a8cb9d45-8a94-4e89-a7f9-2e784ab3f802",
+      "title": "Rencontre Startup Algérie",
+      "description": "Un meetup entre fondateurs de startups, investisseurs et passionnés d'entrepreneuriat. Pitchs, discussions et networking.",
+      "date": "2025-07-20",
+      "time": "17:30",
+      "location": "Incubateur Casbah, Alger",
+      "category": "Meetup",
+      "price": "0",
+      "capacity": "200",
+      "tags": [
+        "startup",
+        "entrepreneurship",
+        "networking"
+      ],
+      "image": "https://images.unsplash.com/photo-1559136656-3db4bf6c35f8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "startups@dz.org",
+      "createdAt": "2025-05-13T12:15:00.000Z"
+    },
+    {
+      "id": "c3275d74-b6a1-4f3b-9f18-9fcac3047c5a",
+      "title": "Atelier d’Écriture Créative",
+      "description": "Développez vos compétences d’écriture narrative avec des exercices guidés et des retours personnalisés. Atelier pour adultes.",
+      "date": "2025-06-28",
+      "time": "16:00",
+      "location": "Médiathèque de Béjaïa",
+      "category": "Workshop",
+      "price": "700",
+      "capacity": "25",
+      "tags": [
+        "écriture",
+        "créativité",
+        "atelier"
+      ],
+      "image": "https://images.unsplash.com/photo-1615949394813-ba42de383eb4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "formation@dz.org",
+      "createdAt": "2025-05-13T12:18:00.000Z"
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7a8b-9c0d-ef1234567890",
+      "title": "Soirée Open Mic – Slam & Poésie",
+      "description": "Une scène ouverte à tous les amoureux de la poésie et du spoken word. Partagez vos textes ou profitez simplement du spectacle.",
+      "date": "2025-07-05",
+      "time": "19:00",
+      "location": "Centre Culturel de Blida",
+      "category": "Art",
+      "price": "400",
+      "capacity": "100",
+      "tags": [
+        "poésie",
+        "slam",
+        "open mic"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1726812018293-19d2aa940e34?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "culture@dz.org",
+      "createdAt": "2025-05-13T15:20:00.000Z"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8b9c-0d1e-f234567890ab",
+      "title": "Séance Yoga au Lever du Soleil",
+      "description": "Rejoignez-nous pour une séance de yoga revitalisante face à la mer, animée par une instructrice certifiée.",
+      "date": "2025-06-15",
+      "time": "06:00",
+      "location": "Plage des Sablettes, Alger",
+      "category": "Health",
+      "price": "600",
+      "capacity": "50",
+      "tags": [
+        "yoga",
+        "bien-être",
+        "plein air"
+      ],
+      "image": "https://images.unsplash.com/photo-1744291406548-71376f16b45c?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "zenlife@dz.org",
+      "createdAt": "2025-05-13T15:25:00.000Z"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9c0d-1e2f-34567890abcd",
+      "title": "Séance Ciné-Débat – Femmes et Résistance",
+      "description": "Projection du film documentaire suivie d’un débat animé par des chercheuses en histoire contemporaine.",
+      "date": "2025-06-19",
+      "time": "18:00",
+      "location": "Cinémathèque d'Oran",
+      "category": "Cinema",
+      "price": "800",
+      "capacity": "90",
+      "tags": [
+        "cinéma",
+        "débat",
+        "documentaire"
+      ],
+      "image": "https://images.unsplash.com/photo-1604139962277-4281cb4e1e04?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "films@dz.org",
+      "createdAt": "2025-05-13T15:30:00.000Z"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-0d1e-2f34-567890abcdef",
+      "title": "Compétition de Robotique Junior",
+      "description": "Une journée où des équipes de jeunes présentent leurs robots et s’affrontent dans des défis techniques.",
+      "date": "2025-08-10",
+      "time": "10:00",
+      "location": "Université des Sciences et Technologies Houari Boumediene",
+      "category": "Competition",
+      "price": "0",
+      "capacity": "300",
+      "tags": [
+        "robotique",
+        "technologie",
+        "jeunesse"
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1682124242417-b838a1305b79?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "tech@dz.org",
+      "createdAt": "2025-05-13T15:35:00.000Z"
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1e2f-3a45-67890abcdef1",
+      "title": "Formation Courte – Marketing Digital",
+      "description": "Apprenez les bases du marketing digital : SEO, réseaux sociaux et publicité en ligne. Formation sur deux jours.",
+      "date": "2025-06-25",
+      "time": "09:30",
+      "location": "Espace coworking Hive, Annaba",
+      "category": "Training",
+      "price": "2500",
+      "capacity": "40",
+      "tags": [
+        "formation",
+        "marketing",
+        "digital"
+      ],
+      "image": "https://images.unsplash.com/photo-1690191793529-57816b3af3a0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdBy": "formation@dz.org",
+      "createdAt": "2025-05-13T15:40:00.000Z"
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2f34-5a67-890abcdef123",
+      "title": "TEDx University of Boumerdes",
+      "description": "An inspiring day with incredible speakers to broaden our horizons in Science and Technology!",
+      "date": "2025-07-06",
+      "time": "10:00",
+      "location": "University of Boumerdes, Boumerdes",
+      "category": "Conference",
+      "price": "500",
+      "capacity": "300",
+      "tags": [
+        "TEDx",
+        "science",
+        "technology",
+        "conference"
+      ],
+      "image": "http://localhost:5174/src/assets/tedx.png",
+      "createdBy": "tedx@umb.dz",
+      "createdAt": "2025-05-13T15:50:00.000Z"
+    },
+    {
+      "id": "7e1b4a3c-49d3-4d1e-812c-45a701f64f7b",
+      "title": "El Basta",
+      "description": "Their show, a true blend of heritage and modernity, never fails to captivate an ever-growing audience, always in an electrifying atmosphere!",
+      "date": "2025-08-02",
+      "time": "21:00",
+      "location": "Salle Ibn Khaldoun, Alger",
+      "category": "Concert",
+      "price": "2500",
+      "capacity": "400",
+      "tags": [
+        "music",
+        "tradition",
+        "modernity",
+        "concert"
+      ],
+      "image": "http://localhost:5174/src/assets/image4.png",
+      "createdBy": "events@elbasta.com",
+      "createdAt": "2025-05-13T16:05:00.000Z"
+    },
+    {
+      "id": "bd65cc9f-08c7-4737-a795-8247168ad8fd",
+      "title": "event",
+      "description": "new event ",
+      "date": "2025-05-13",
+      "time": "15:00",
+      "location": "annaba",
+      "category": "Workshop",
+      "price": "0",
+      "capacity": "7",
+      "tags": [
+        "workshop"
+      ],
+      "image": "blob:http://localhost:5174/89f9f2d6-f11a-458a-916a-623e5353e083",
+      "createdBy": "event@gmail.com",
+      "createdAt": "2025-05-13T13:22:33.151Z"
+    },
+    {
+      "id": "7ca76acf-b290-4fb6-86d5-75cf989bd0b2",
+      "title": "testing event",
+      "description": "this is q test",
+      "date": "2011-01-01",
+      "time": "20:00",
+      "location": "annaba",
+      "category": "Workshop",
+      "price": "20",
+      "capacity": "19",
+      "tags": [
+        "comedy"
+      ],
+      "image": null,
+      "createdBy": "event@gmail.com",
+      "createdAt": "2025-05-13T15:24:18.666Z"
+    }
+  ]
+}

@@ -33,11 +33,13 @@
   }
   
   .auth-container input {
+    width: 100%;
     margin: 10px 0;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
+    box-sizing: border-box;
   }
   
   .auth-container button {
@@ -70,3 +72,11 @@
     text-decoration: underline;
   }
   
+  .error-message {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: #ff6b6b;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
