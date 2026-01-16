@@ -17,7 +17,7 @@ const Login = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5001/api/users');
+      const response = await fetch('http://127.0.0.1:5000/api/users');
       const users = await response.json();
       
       const user = users.find(u => u.email === email);

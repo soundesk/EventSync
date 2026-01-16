@@ -14,8 +14,8 @@ logging.basicConfig(level=logging.INFO)
 # Initialize TinyDB
 users_db = TinyDB('users.json')
 events_db = TinyDB('events.json')
-users_table = users_db.table('users')
-events_table = events_db.table('events')
+users_table = users_db  # Use default table for users
+events_table = events_db  # Use default table for events
 User = Query()
 Event = Query()
 
